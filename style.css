@@ -7,7 +7,6 @@
 body{
   width: 100vw;
   height: 100vh;
-  padding: 2vw;
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
@@ -36,7 +35,7 @@ nav ul{
 }
 
 nav li{
-  margin-right: 50px;
+  margin-left: 50px;
   color: blue;
   font-size: 1.2rem;
   font-weight: 500;
@@ -47,8 +46,8 @@ nav li:hover{
 
 
 main {
-  width: 40%;
-  padding: 3vw;
+  width: 50%;
+  padding: 5vw 3vw;
   align-self: center;
   display: flex;
   flex-wrap: wrap;
@@ -57,12 +56,19 @@ main {
   top: 40%;
   background-color: rgba(255, 255, 255, 0.3);
   border-style: solid;
-  border-color: black;
+  border-color: blue;
   border-radius: 30px;
+}
+
+h2{
+  font-size: 3rem;
+  color: blue;
 }
 
 p{
   margin: 0;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 button{
@@ -84,8 +90,9 @@ a:visited{
 
 footer{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
-  padding: 20px 0 20px ;
+  width: 100%;
+  font-size: 1.3rem;
 }
