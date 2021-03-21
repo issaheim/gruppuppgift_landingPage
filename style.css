@@ -1,100 +1,104 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Poppins', sans-serif;
-  background-image: url("teabackground.jpg");
-  background-size:c over;
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: "Poppins", sans-serif;
+	background-image: url("teabackground.jpg");
+	background-size: c over;
 }
 
-header{
-  display: flex;
-  justify-content: space-between;
-  text-transform: uppercase;
+header {
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
 }
 
-header h1{
-  font-size: 4.5rem;
-  font-weight: 800;
-  letter-spacing: 0.5rem;
-  margin-bottom: 2px;
-  color: blue;
-  text-shadow: rgb(13, 13, 116) -4px -4px 0;
+header h1 {
+	font-size: 4.5rem;
+	font-weight: 800;
+	letter-spacing: 0.5rem;
+	margin-bottom: 2px;
+	color: blue;
+	text-shadow: rgb(13, 13, 116) -4px -4px 0;
 }
 
-nav ul{
-  display: flex;
-  list-style-type: none;
+nav ul {
+	display: flex;
+	list-style-type: none;
 }
 
-nav li{
-  margin-left: 50px;
-  color: blue;
-  font-size: 1.2rem;
-  font-weight: 500;
+nav li {
+	margin-left: 50px;
+	color: blue;
+	font-size: 1.2rem;
+	font-weight: 500;
 }
-nav li:hover{
-  cursor: pointer;
+nav li:hover {
+	cursor: pointer;
 }
-
 
 main {
-  width: 50%;
-  padding: 5vw 3vw;
-  align-self: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: absolute;
-  top: 40%;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-style: solid;
-  border-color: blue;
-  border-radius: 30px;
+	width: 50%;
+	padding: 5vw 3vw;
+	align-self: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: absolute;
+	top: 40%;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-style: solid;
+	border-color: blue;
+	border-radius: 30px;
 }
 
-h2{
-  font-size: 3rem;
-  color: blue;
+h2 {
+	font-size: 3rem;
+	color: blue;
 }
 
-p{
-  margin: 0;
-  font-weight: 300;
-  font-size: 1.2rem;
+p {
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.2rem;
 }
 
-button{
-  border: blue solid 3px;
-  box-shadow: blue -3px -3px 0;
-  padding: 10px;
-  font-size: 1.5rem;
-  font-weight: 300;
+button {
+	border: blue solid 3px;
+	box-shadow: blue -3px -3px 0;
+	padding: 10px;
+	font-size: 1.5rem;
+	font-weight: 300;
 }
 
-a{
-  font-family: 'Poppins', sans-serif;
-  color: blue;
-  text-decoration: none;
+a {
+	font-family: "Poppins", sans-serif;
+	color: blue;
+	text-decoration: none;
 }
-a:visited{
-  color: blue;
+a:visited {
+	color: blue;
 }
 
-footer{
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  font-size: 1.4rem;
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.5vw;
+footer {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 1.4rem;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 0.5vw;
+}
+
+input {
+	display: block;
+	margin-bottom: 8px;
 }
