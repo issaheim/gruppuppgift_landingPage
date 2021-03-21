@@ -1,0 +1,18 @@
+git clone (för att klona repot)
+git checkout -b "branchName" (för att skapa ny branch)
+code . (för att öppna i vs-code)
+git status (för att se status)
+touch gitLogEmma.txt (för att skapa textfil)
+
+Gjorde ändringar i vs-code
+
+git status (för att se status)
+git add formular.html style.css (för att addera ändringar i formular och css)
+git commit -m "add small fixes"
+git add gitLogEmma.txt (för att addera textfilen)
+git commit -m "add gitLog"
+git push (för att pusha upp min branch till github)
+
+skapa en pull recuest på github
+merga till main
+radera min branch
